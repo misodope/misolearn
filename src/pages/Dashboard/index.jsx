@@ -1,12 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
+import { Gallery } from "../../components/Gallery";
 
 export const Dashboard = () => {
-  const [count, setCount] = useState(0);
-  console.log(count);
   return (
     <div>
       <h1>Dashboard</h1>
-      asdasdasddass asdasdas
+      <Gallery />
     </div>
   );
 };
