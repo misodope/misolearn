@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 
 export const Gallery = () => {
+  console.log("Ita feature b");
+
   useEffect(() => {
     async () => {
       const res = await fetch("https://dummyjson.com/products");
