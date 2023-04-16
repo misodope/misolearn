@@ -32,11 +32,7 @@ function App() {
           <button
             onClick={(event) => {
               event.preventDefault();
-<<<<<<< HEAD
-              console.log("CLicked");
-=======
               console.log("CLICKED!");
->>>>>>> ecd974ee2da0a13983982fddbd2df393ab76bfce
             }}
           >
             Submit
