@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import { TextInput } from "./components/TextInput";
+import { TextInput } from "../components/TextInput";
 
 function App() {
   const [search, setSearch] = useState("");
